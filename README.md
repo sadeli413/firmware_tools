@@ -2,7 +2,7 @@
 
 ### Usage
 ```
-curl https://raw.githubusercontent.com/sadeli413/firmware_tools/main/firwmare_tools_installer.sh | sh
+curl https://raw.githubusercontent.com/sadeli413/firmware_tools/main/firwmare_tools_installer.sh | bash
 ```
 
 ### Description
@@ -17,3 +17,6 @@ This script only works on GNU/Linux systems that are:
 - Debian based
 - Use GCC 10 by default (for Makefile)
 - bash
+
+### Example Vulnerable Firmware
+- https://www.downloads.netgear.com/files/GDC/WNAP320/WNAP320%20Firmware%20Version%202.0.3.zip
