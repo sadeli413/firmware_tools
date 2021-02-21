@@ -1,8 +1,20 @@
 # firmware_tools
 
 ### Usage
+1. Run the script.
 ```
 curl https://raw.githubusercontent.com/sadeli413/firmware_tools/main/firwmare_tools_installer.sh | bash
+```
+2. Make sure `firmware-analysis-toolkit/fat.config` is configured with your sudo password. For example:
+```
+[DEFAULT]
+sudo_password=myPassword123
+firmadyne_path=/home/sadeli/firmware-analysis-toolkit/firmadyne
+```
+3. Make sure sasquatch and binwalk have been installed.
+```
+sasquatch -h
+binwalk -h
 ```
 
 ### Description
