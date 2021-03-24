@@ -19,7 +19,7 @@ sudo apt update
 
 # make sure basic tools are installed
 sudo apt install git curl unzip python python3 python3-pip -y
-curl https://bootstrap.pypa.io/2.7/get-pip.py --output get-pip.py
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
 sudo python get-pip.py
 rm get-pip.py
 
